@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Smart Inventory System</title>
+		<meta charset='utf-8'/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript" >
+			$(document).ready(function () {	
+				$('html').fadeIn(3000);
+			});
+		</script>
+	</head>
+	<!-------------------------------------->
+	<style>
+		html{
+			display: none;		
+		}	
+		body .panel{
+			padding: 50px;
+			width: 500px;
+			background-color:black;
+			opacity:0.9; 
+			margin: 70px auto;		
+			text-align: center;		
+		}	
+		body div h1{
+			color: white;	
+			font-size: 30px;	
+		}
+		a{
+			text-decoration: none;
+			color: white;	
+			font-size: 20px;	
+		}
+		p{
+			padding: 30px;
+			color: white;	
+			border: 1px solid white;
+			margin: 0px auto;
+			width: 250px;
+			margin-bottom: 30px;
+			background-color: #037235;
+			transition: 1s;	
+		}
+		p:hover{
+			background-color: #203022;
+			transition-duration: 5 sec
+				
+		}
+				
+	</style>	
+	<!-------------------------------------->
+	<body style= 'background-image: url("images/cloths_collection.jpg");width: 100%;height: 100%;' >
+		<div class="panel">
+			<h1>GATEWAY</h1>
+				<p><a href="admin_login.html" target="_black"> ADMINISTRATION LOGIN</a></p>		
+				<p><a href="customer_login.html" target="_black">CUSTOMER LOGIN</a></p>
+				<a href="index.html" style=" border:1px solid white;padding: 10px; background-color: #037235;">GO BACK<a>
+		</div>
+	</body>
+	<!-------------------------------------->
+</html>

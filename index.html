@@ -1,0 +1,213 @@
+<html>
+	<head>
+		<title>Smart Inventory System</title>
+		<meta charset='utf-8'/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript" >
+			$(document).ready(function () {
+				$('p').fadeIn(3000);
+				$('.para1').fadeIn(1000);
+				$('.para2').fadeIn(1000);
+				$('.inner1-para').fadeIn(1000);
+				$('.para-contact-lower').fadeIn(1000);
+				$('.panel').fadeIn(3000);
+				$("#heading").fadeIn(9000);
+			});
+		</script>
+	</head>
+	<style>
+	*{
+		margin: 0;	
+	}
+	p{
+		display: none;	
+	}
+	.para1{ 
+		background: cover;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size:cover; 	
+		min-height: 800px;
+		display: none;
+		
+	}
+	.para2{
+		height: 800px;
+		/*background-color: black;
+		opacity: 0.4;*/
+		background-repeat: no-repeat;
+		font-size: 36px;	
+		background-size: 2000px 800px;
+		display: none;
+	
+	}		
+	.inner1-para{
+		opacity: 0.7;
+		height: 800px;
+		background-size: cover;
+		display: none;
+		background-color: black;
+	}
+	.para-contact-lower{
+		margin: 0;
+		height: 300px;
+		background-size: cover;
+    	background-color: #333;	
+		display: none;
+	}
+	.lower-para{
+		height: 800px;
+		background-size: cover;
+		display: none;
+		
+	
+	}
+	.panel{
+		position: fixed;
+		width: 100%;	
+		z-index: 1;
+	}
+	ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #333;	
+		
+	}	
+	li{
+		float: left;
+		border-right:1px solid white;
+	}
+	li a{
+		font-size: 22px;
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 16px 20px;
+		text-decoration: none;	
+	
+	}
+	li a:hover{
+		background: #111;
+		
+	}
+	li:last-child {
+    border-right: none;
+	}
+	</style>
+	
+	<body>
+		
+		<div class="panel" style="display: none">
+				<ul>
+				<li><a href="#para1" >Home</a></li>
+				<li><a href="#inner1-para" >About us</a></li>
+				<li><a href="#check_para" >FAQ</a></li>
+				<li><a href="#contact" >Contact Us</a></li>
+				<li><a href="registration.html" >Registration</a></li>
+				<li style="float: right;"><a href="gateway.html" >Login</a></li>			
+			</ul>	
+		</div>
+				
+		<div class="para1" name="" style='background-image: url("images/tent.jpeg");'><a name="para1"></a>
+			<h1 id='heading' onload='show' style="color: white;text-align: center;font-size: 100px;padding: 300px;display:none;">SMART<br>INVENTORY<br>SYSTEM</h1>
+		</div>
+		
+		<div class="para2" style='background-image: url("images/star_wars.jpg");'>
+			<div class="inner1-para" style=""><a name="inner1-para"></a>
+				<p style="font-size: 40px;color: white;padding:10px; ">
+				Do You Have One of These Inventory Management Problems?				
+				</p>
+				<p style="font-size: 30px;color: white;padding: 10px;">
+				1 | You're Scrambling Because You Need Better Workflows			
+				</p>
+				<p style="font-size: 30px;color: white;padding: 15px;">
+				Those little holes you thought you’d get around to patching up in your supply chain,<br>
+				warehouse slotting, and fulfillment process have grown to the point that you’re now bleeding money,<br> 
+				and don’t know where to begin to fix them.		
+				</p>
+				<p style="font-size: 30px;color: white;padding: 15px;">
+				2 | You Have No Idea How Much Inventory You Have (or Don’t Have)			
+				</p>
+				<p style="font-size: 30px;color: white;padding: 15px;">
+				You’re purchasing excess inventory as a cushion to prevent out-of-stocks because 
+				you're getting tired of dealing with angry customers that place orders you can’t fulfill.	
+				</p>
+				<p style="font-size: 30px;color: white;padding: 15px;">
+				3 | You Live in Constant Fear of Out-Of-Stocks			
+				</p>
+				<p style="font-size: 30px;color: white;padding: 15px;">
+				When you close your eyes, you’re still mentally rearranging<br>
+				 your stock across marketplaces in a never-ending game of inventory Tetris.
+				</p>
+				<p style="font-size: 30px;color: white;padding: 15px;">
+				4 | Incompatible Software Is Creating Extra Work You	
+				</p>
+				<p style="font-size: 30px;color: white;padding: 15px;">
+				Your WMS doesn’t talk to your POS and your POS doesn’t talk to your shipping software,<br>
+				 so you’re completing and repeating the same tasks across so many systems.<br> 
+				You can no longer remember if you’ve marked an order shipped twice or not at all.
+				</p>
+				
+				
+			</div>
+		</div>
+		<div class="para1" style='background-image: url("images/truck_check.jpg");'>
+		</div>
+		
+		<div class="para2" style='background-image: url("images/idea.jpeg");'><a name="check_para"></a>
+			<div class="inner1-para" style="">
+				<p style="font-size: 40px;color: white;padding:10px; ">
+				F.A.Q				
+				</p>
+				<p style="font-size: 30px;color: white;padding: 10px;">
+				1) How long does will it take to get my company up and running?		
+				</p>
+				<p style="font-size: 30px;color: white;padding: 15px;">
+				Depending on how complex your business is, you can get up and running in just a few hours.<br>
+				We have industry specific "quick start" databases that come pre-formatted.<br> 
+				This means that most of the setup is already finished<br>
+				and all you have to do is start entering your customers and employees.<br>
+				</p>
+				<p style="font-size: 30px;color: white;padding: 15px;">
+				2) Are your programs easy to learn?		
+				</p>
+				<p style="font-size: 30px;color: white;padding: 15px;">
+				We think so...and so do our users. Smart Inventory software was designed to be used by <br>
+				the average business owner or employee, not computer scientists. Smart Inventory is intuitive<br> 
+				and easy to use because they are designed with the look and feel of software you use everyday.<br>	
+				</p>
+				<p style="font-size: 30px;color: white;padding: 15px;">
+				3) Can I use your program on more than one computer?			
+				</p>
+				<p style="font-size: 30px;color: white;padding: 15px;">
+				Yes. Smart Inventory Software is designed for multi-user environments.<br>
+				 All of your organizations information is stored within a single database,<br> 
+				</p>
+				<p style="font-size: 30px;color: white;padding: 15px;">
+				4) I like to work from home on the weekends, can I access my company data from home?
+				</p>
+				<p style="font-size: 30px;color: white;padding: 15px;">
+				Sure. As long as you have an Internet connection at your office and your home,<br>
+				 you can work from home just as if you were at the office.
+				</p>
+			
+			</div>
+		</div>
+		
+		<div class="para1" style='background-image: url("images/padlock.jpg");'>
+		</div>
+		
+		<div class="para-contact-lower"><a name="contact"></a>
+			<h3 style="color: white;font-size: 30px;z-index: 1;text-align: center;">Contact Us:</h3>
+			<h3 style="color: white;font-size: 30px;z-index: 1;text-align: center;padding-bottom: 40px;">+91-9087000556</h3>
+			<p style="color: white;font-size: 20px;z-index: 1;text-align: center;">E-Mail: </p>
+			<p style="color: white;font-size: 20px;z-index: 1;text-align: center;">Abhigupta9087@gmail.com </p>
+			<div class="lower-para">
+			</div>
+		</div>
+	
+	</body>
+</html>

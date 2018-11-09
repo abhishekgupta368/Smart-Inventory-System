@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Smart Inventory System</title>
+		<link rel="stylesheet" type="text/css" href="bargraph.css">
+		<style type="text/css">
+			
+			#chart-container {
+				margin:50px auto;
+				width: 1200px;
+				height: auto;
+				background-color:black;
+				opacity:0.8;
+			}
+			.data{
+				background-color: black;
+				opacity:0.7;
+				width:800px;
+				color:white;
+				text-align:center;
+				font-size:45px;
+				margin: 50px auto;
+			}
+		</style>
+	</head>
+	<body style='background-image: url("../images/banner.png");'>
+		<div class="data">Data Analysis</div> 
+		
+		<div id="chart-container">
+			<canvas id="mycanvas"></canvas>
+		</div>
+
+		<!-- javascript -->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/Chart.min.js"></script>
+		<script type="text/javascript" src="js/app.js"></script>
+	</body>
+	<p><a href="admin_mainpage.html" style="margin-left:750px; text-decoration: none;color: black; border: 1px solid black; padding: 5px 39px; background-color: green; color: white;" >GO BACK</a></p>
+	<script>
+		function togglesidebar(ref){
+			ref.classList.toggle('active');
+			document.getElementById('sidebar').classList.toggle('active');
+		}
+	</script>
+</html>
